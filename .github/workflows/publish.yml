@@ -20,14 +20,21 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Copy files
-        uses: andstor/copycat-action@v3
+      - uses: actions/checkout@v2
         with:
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          src_path: readme.md
-          src_branch: main
-          dst_path: content/awesome-talks.md
-          dst_owner: HackSocNotts
-          dst_branch: main
-          dst_repo_name: hacksocnotts.github.io
-          clean: true
+          repository: https://github.com/HackSocNotts/hacksocnotts.github.io
+          path: './hacksocnotts.github.io/'
+      
+      - uses: actions/checkout@v2
+        with:
+          path: './awesome-talks/'
+
+      # You can make whatever type of change to the repo...
+      - run: ./awesome-talks/add-yaml.sh > ./hacksocnotts.github.io/content/awesome-talks.md
+
+      # ...and then use the action as you would normally do, but providing the path to the repo
+      - uses: EndBug/add-and-commit@v7
+        with:
+          message: 'Updated Events Page'
+          add: 'content/awesome-talks.md  --force'
+          cwd: './hacksocnotts.github.io/'
