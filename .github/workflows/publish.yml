@@ -24,6 +24,7 @@ jobs:
         with:
           repository: HackSocNotts/hacksocnotts.github.io
           path: './hacksocnotts.github.io/'
+          token: ${{ secrets.PERSONAL_TOKEN }}
       
       - uses: actions/checkout@v2
         with:
@@ -42,7 +43,6 @@ jobs:
       - name: Push changes
         run: |
           cd ./hacksocnotts.github.io/
-          git push https://$USERNAME:$REPO_KEY@github.com/HackSocNotts/hacksocnotts.github.io.git main
+          git push origin main
         env:
-          REPO_KEY: ${{ secrets.PERSONAL_TOKEN }}
           username: ${{ secrets.USERNAME }}
