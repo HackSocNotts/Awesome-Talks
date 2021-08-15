@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this suggestion form!
+        Thanks for taking the time to suggest a talk to add to the list!
   - type: input
     id: suggestion
     attributes:
@@ -16,8 +16,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Describe your suggesiton
+      label: Describe the talk (in breif)
       description: How and why is your suggestion useful to this community?
-      placeholder: I wish to see tool <xyz> here becuase it is used for...
+      placeholder: I wish to see talk <xyz> here becuase...
     validations:
       required: true

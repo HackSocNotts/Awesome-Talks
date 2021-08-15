@@ -1,18 +1,17 @@
 # Contribution Guidelines
 
-Please note that this project is released with a [Contributor Code of Conduct](code_of_conduct.md). By participating in this project you agree to abide by its terms.
-
-## PRs
-
-ALWAYS create a new branch with your proposed changes. Thank you!
+Please note that this project is released with a [Contributor Code of Conduct](https://github.com/HackSocNotts/code-of-conduct). By participating in this project you agree to abide by its terms.
 
 ## Adding an new Item
 
-- Try to fit your item into an existing sections. [Open a suggestion](https://github.com/TODO_YOUR_REPO_NAME_HERE/issues/new) to start as discussion about any new sections.
-- Add a new item to the bottom of the list in a section.
-- If a duplicate item exists, discuss why the new item should replace it.
+- [Open a suggestion](https://github.com/HackSocNotts/Awesome-Talks/issues/new)
+- If a duplicate item exists, discuss why the new item should replace it (Better AV quality or similar).
+
+### Adding Directly to the file (for future maintainers)
+- Have a committee member watch the talk to assess the quality and suitablity
+- Add a new item to the bottom of the list in a section. Try to keep it in an existing section if you can, but if that's unaviodable, that's okay
 - Check your spelling & grammar.
 - The item must follow this format:
   ```
-  - [item name](https link) - Description beginning with capital, ending in period.
+  - https://youtu.be/dQw4w9WgXcQ My Wonderful Talk (Peter Taylor, HackNotts 2020)
   ```
