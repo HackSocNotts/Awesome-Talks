@@ -4,4 +4,4 @@ echo "---"
 echo "title: Awesome Talks"
 echo "date: \"$(date -I)\""
 echo "---"
-cat readme.md
+cat $(dirname "$0")/readme.md
