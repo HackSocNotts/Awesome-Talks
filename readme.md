@@ -17,8 +17,6 @@ A list of talks, curated by [Hacksoc](https://hacksoc.net)
 
 <!-- description -->
 
-A one line description of the product or tool. See [awesome-firebase](https://github.com/jthegedus/awesome-firebase) for an example.
-
 </div>
 
 <!-- TOC -->
@@ -26,12 +24,12 @@ A one line description of the product or tool. See [awesome-firebase](https://gi
 ## Contents
 
 - [Programming](#programming)
-- [SysAdmin / Servers / Deployment ](#sysadmin--servers--deployment)
+- [SysAdmin / Servers / Deployment](#sysadmin--servers--deployment)
 - [Game Dev](#game-dev)
 - [Open Source Community](#open-source-community)
 - [Cyber Security](#cyber-security)
 - [RF and Radio](#rf-and-radio)
-- [Low-Level & OS](#low-level-and-os)
+- [Low-Level & OS](#low-level--os)
 
 <!-- CONTENT -->
 
@@ -43,7 +41,7 @@ A one line description of the product or tool. See [awesome-firebase](https://gi
 
 ## SysAdmin / Servers / Deployment
 - https://youtu.be/i7yoXqlg48M Docker, FROM scratch (Aaron Powell, NDC 2017)
-- https://youtu.be/PUuTUxnqX0g Don’t eat my data - 30+ years of storage war stories (Steven Ellis, LCA 2020)
+- https://youtu.be/PUuTUxnqX0g Don't eat my data - 30+ years of storage war stories (Steven Ellis, LCA 2020)
 - https://youtu.be/7tFL0NFBwUc OpenZFS and Linux (Nikolai Lusan, LCA 2020)
 - https://youtu.be/pJuF5YmpxD0 The worst outage I never caused (Julien Goodwin, LCA 2021)
 
@@ -51,7 +49,7 @@ A one line description of the product or tool. See [awesome-firebase](https://gi
 - https://youtu.be/T2OxO-4YLRk Classic Game Postmortem: Fallout (Tim Cain, GDC 2012)
 - https://youtu.be/vdGNFhKhoKY Classic Game Postmortem: Oregon Trail (Don Rawitch, GDC 2017)
 - https://youtu.be/Sd8ie5R4CVE Getting Started with Linux Game Development (Ryan Gordon, Steam Dev Days 2014)
-- https://youtu.be/Xn6jNHtPpqQ Let’s Use An Automated Theorem Prover To Verify Video Games; I Swear This Is More Fun Than It Sounds (Jon Manning, LCA 2021)
+- https://youtu.be/Xn6jNHtPpqQ Let's Use An Automated Theorem Prover To Verify Video Games; I Swear This Is More Fun Than It Sounds (Jon Manning, LCA 2021)
 
 ## Open Source Community
 - https://youtu.be/KuNB4ocZDXA DFPGA based mobile phone: Creating a truly open and trustable mobile communications device (Paul Gardner-Stephen, LCA 2019)
@@ -72,7 +70,7 @@ A one line description of the product or tool. See [awesome-firebase](https://gi
 - https://youtu.be/1RipwqJG50c Radio Hacking: Cars, Hardware, and more! (Samy Kamkar, AppSec California 2016)
 - https://youtu.be/gMwciWchH3Q Hacking satellites with Software Defined Radio (Gerard de Jong, BSides Cape Town 2019)
 
-## Low-Level and OS
+## Low-Level & OS
 - https://youtu.be/o_AIw9bGogo The Tragedy of systemd (Benno Rice, LCA 2019)
 - https://youtu.be/6vaKmE_y7C8 How the quest to prevent time from running out has led me to all corners of the Linux kernel (Deepa Dinamani, LCA 2019)
 - https://youtu.be/fTLsS_QZ8us Booting faster (Stewart Smith, LCA 2019)
@@ -86,4 +84,4 @@ A one line description of the product or tool. See [awesome-firebase](https://gi
 [Contributions of any kind welcome, just follow the guidelines](contributing.md)!
 
 ### Contributors
-[Thanks goes to these contributors](https://github.com/TODO_YOUR_REPO_NAME_HERE/graphs/contributors), and societey members through the years!
+[Thanks goes to these contributors](https://github.com/HackSocNotts/Awesome-Talks/graphs/contributors), and societey members through the years!
