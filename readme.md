@@ -46,6 +46,8 @@ A list of talks, curated by [Hacksoc](https://hacksoc.net)
 - https://youtu.be/S9BxH8N9dqc Through the Eyes of a Theif (Deviant Ollam, LMG Basement 2019)
 - https://youtu.be/BLGFriOKz6U Behind the Scenes of iOS Security (Ivan Krstic, Black Hat 2016)
 - https://youtu.be/2Ra1CCG8Guo Writing Viruses for Fun, not Profit (Ben Dechrai, LCA 2019)
+- https://youtu.be/UYupx8UVfzw Everything I Need To Know About Security I Learned From Watching Kung Fu Movies (Paul Asadoorian, Derbycon 2017)
+
 
 
 ## RF and Radio
